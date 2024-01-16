@@ -1,3 +1,5 @@
+####### Instructions below for how to initalise the FRanka Robot in the Terminal ;
+
 ## Franka IP
 172.16.0.2
 
@@ -17,7 +19,7 @@ roslaunch panda_moveit_config franka_control.launch robot_ip:=172.16.0.2 load_gr
 ## To recover from errors and reflexes when the robot is in reflex mode
 rostopic pub -1 /franka_control/error_recovery/goal franka_msgs/ErrorRecoveryActionGoal "{}"
 
-
+########
 
 
 
