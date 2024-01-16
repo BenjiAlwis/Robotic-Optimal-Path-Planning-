@@ -1,1 +1,1 @@
-
+Singular Routes
